@@ -1,0 +1,48 @@
+# Sales Skills for Claude Code: Account Contact Shortlist
+
+> A Claude Code skill for building ranked contact shortlists at target accounts, powered by Explorium.
+
+## Summary
+
+This repository contains the `account-contact-shortlist` skill for Claude Code. It enables AI agents to pull and rank the right contacts at any target company for prospecting, deal acceleration, or renewal/expansion plays.
+
+## Key Files
+
+- [README.md](README.md): Overview, installation, usage, and input/output documentation
+- [SKILL.md](SKILL.md): The full skill definition — input spec, step-by-step workflow, output format, and limitations
+
+## What This Skill Does
+
+Given a company name or domain, this skill:
+1. Resolves the account to a verified company record
+2. Maps the use case (prospecting / deal acceleration / renewal) to a persona blueprint
+3. Fetches contacts from 350M+ people in the Explorium database
+4. Enriches them with verified emails, phone numbers, and LinkedIn profiles
+5. Ranks them by persona fit, reachability, and tenure signals
+6. Returns a structured shortlist with engagement priority and next steps
+
+## Use Cases
+
+- **Prospecting**: Build a buying-committee shortlist for cold outbound
+- **Deal Acceleration**: Find the economic buyer and technical evaluator for an in-flight opportunity
+- **Renewal/Expansion**: Surface product owners and executive sponsors for retention plays
+- **SDR Enablement**: Give reps a prioritized, email-verified outreach list in seconds
+
+## Related Skills in This Series
+
+- account-fit-rank: Rank and score accounts against your ICP
+- account-research: Deep intelligence brief on a single company
+- competitor-research: Competitive intelligence brief on rival companies
+- decision-makers-map: Map the full decision-making unit at a target account
+- enrich-company: Full company profile from domain or name
+- enrich-contact: Enrich a known contact with email, phone, and LinkedIn
+- list-builder: Build a targeted prospect or business list from a brief
+- lookalike-accounts: Find companies similar to your best customers
+- market-sizing: Estimate total addressable market for a segment
+- meeting-prep: Pre-call intelligence brief for a sales meeting
+- personalize-email: Signal pack for writing personalized outreach
+- score-leads: Score inbound leads against your ICP
+
+## Source
+
+Skill definition maintained at: https://github.com/explorium-ai/Agent-skills/tree/main/skills/account-contact-shortlist
